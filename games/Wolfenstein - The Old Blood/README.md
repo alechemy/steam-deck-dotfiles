@@ -1,4 +1,4 @@
-# Wolfenstein II - The New Order
+# Wolfenstein II - The Old Blood
 
 ## Settings
 
