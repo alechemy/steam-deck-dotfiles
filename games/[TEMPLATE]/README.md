@@ -8,7 +8,7 @@
 
 ### In-Game
 
-- Settings Preset:
+- Settings Preset
 
 ### SteamOS
 

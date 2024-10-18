@@ -23,6 +23,6 @@
 - Refresh Rate: 60hz
 - TDP Limit: None
 
-### Misc.
+### Miscellaneous
 
 - Install the gyro plugin via EmuDeck in order to use gyro aiming

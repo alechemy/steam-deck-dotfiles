@@ -2,6 +2,12 @@
 
 ## Settings
 
+### Game Properties
+
+- Launch Options
+  - `-d3d11`
+    - Forces DirectX 11. Consequence is that HDR doesn't work. But performance is better. Maybe?
+
 ### In-Game
 
 - Resolution: 720p

@@ -13,6 +13,6 @@
 
 ### SteamOS
 
-- Frame Limit: 45fps
+- Frame Limit: 60fps
 - Refresh Rate: 90hz
 - TDP Limit: 10W

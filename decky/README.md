@@ -2,11 +2,14 @@
 
 ## Plugins I like
 
+- Brightness Bar
 - CSS Loader
+  - Centered Home
+  - Clean Gameview
   - Deck Store - Better Wishlist
   - Focus Animation Border
     - Set "None"
-  - Large Headers for 3rd Party Apps
+  - Hide Play Time
   - Obsidian
     - Set background to "None"
   - QAM Hide Tabs

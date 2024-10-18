@@ -5,7 +5,7 @@
 ### Game Properties
 
 - Launch Options
-- `+com_skipIntroVideo 1`
+  - `+com_skipIntroVideo 1`
 
 ### In-Game
 
