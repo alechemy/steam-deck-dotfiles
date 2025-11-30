@@ -1,0 +1,26 @@
+#!/bin/bash
+
+export LIBGL_ALWAYS_SOFTWARE=1
+export GSK_RENDERER=cairo
+
+if [[ "$1" = "start" ]]; then
+  flatpak kill com.github.wwmm.easyeffects
+  pkill Xvfb
+
+  Xvfb :43 -screen 0 1024x768x16 &
+
+  timeout 5 bash -c 'until [ -S /tmp/.X11-unix/X43 ]; do sleep 0.1; done'
+
+  if [ ! -S /tmp/.X11-unix/X43 ]; then
+    echo "Error: Xvfb failed to start within 5 seconds."
+    exit 1
+  fi
+
+  export DISPLAY=:43
+  flatpak run com.github.wwmm.easyeffects --gapplication-service
+fi
+
+if [[ "$1" = "stop" ]]; then
+  flatpak kill com.github.wwmm.easyeffects
+  pkill Xvfb
+fi
